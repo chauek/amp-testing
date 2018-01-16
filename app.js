@@ -100,6 +100,6 @@ app.post('/shirts/addToCart', function(req, res) {
 
 app.use('/', express.static('static'));
 
-app.listen(3000, function () {
-  console.log('Server for "Advanced Interactivity in AMP" codelab listening on port 3000!');
+app.listen(3001, function () {
+  console.log('Server for "Advanced Interactivity in AMP" codelab listening on port 3001!');
 });
